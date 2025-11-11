@@ -25,3 +25,10 @@ By specifying the library under the install.exclude array in the **package.json*
 ```
 
 See the [**package.json** configuration guide](https://docs.expo.dev/versions/latest/config/package-json/) for more options.
+{
+  "expo": {
+    "install": {
+      "exclude": ["expo-updates", "expo-splash-screen"]
+    }
+  }
+}
